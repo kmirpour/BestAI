@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>AI Model Recommender</title>
+    <!-- Link to the external CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Find the Right AI for Your Task</h1>
+
+  <!-- Input Area -->
+  <div id="input-area">
+    <input id="user-input" type="text" placeholder="Type your task or question here..." />
+    <button id="send-button"> Recommend AI Model</button>
+  </div>
+    <button id="clear-button">Clear</button>
+  </div>
+
+  <!-- Prompt Gallery -->
+  <div class="prompt-gallery">
+    <!-- Using data-prompt for JS event listeners -->
+    <div class="chip" data-prompt="Solving math problems.">Solving math problems</div>
+    <div class="chip" data-prompt="Summarize this PDF document.">Summarize a PDF</div>
+    <div class="chip" data-prompt="Translate a paragraph to Spanish.">Text translation</div>
+    <div class="chip" data-prompt="Chat with a historical figure.">Chat with a historical figure</div>
+    <div class="chip" data-prompt="Write python code to read a csv file.">Write python code</div>
+    <div class="chip" data-prompt="Detect objects in an image.">Detect objects</div>
+  </div>
+
+  <!-- Results Area (using #chat-messages for dynamic content) -->
+  <div id="chat-messages">
+    <!-- Messages will be added by JS -->
+  </div>
+
+  <!-- Link to the external JavaScript file (defer ensures HTML is parsed first) -->
+  <script src="main.js" defer></script>
+</body>
+</html>

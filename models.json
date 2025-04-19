@@ -1,0 +1,813 @@
+{
+    "AI Models": {
+      "LLM Models": [
+        {
+          "Model Name": "GPT-4o (OpenAI)",
+          "Keywords (Specifications)": [
+            "Proprietary",
+            "Large-scale",
+            "Multimodal (Text, Image, Audio, Video)",
+            "API Access",
+            "Fast",
+            "Cost-Effective (relative to predecessors)",
+            "Transformer-based"
+          ],
+          "Keywords (Best Tasks)": [
+            "General Conversational AI",
+            "Multimodal Interaction",
+            "Text Generation",
+            "Code Generation",
+            "Summarization",
+            "Translation",
+            "Question Answering"
+          ],
+          "Access URL": "https://openai.com/chat"
+        },
+        {
+          "Model Name": "GPT-4.5 (OpenAI)",
+          "Keywords (Specifications)": [
+            "Proprietary",
+            "Largest OpenAI Model (as of release)",
+            "API Access",
+            "Unsupervised Learning Focus",
+            "High World Knowledge",
+            "Transformer-based"
+          ],
+          "Keywords (Best Tasks)": [
+            "Content Creation",
+            "Research Applications",
+            "Educational Support",
+            "Broad Knowledge Q&A"
+          ],
+          "Access URL": "https://platform.openai.com/docs/guides/gpt"
+        },
+        {
+          "Model Name": "GPT-o3 / o1 Series (OpenAI)",
+          "Keywords (Specifications)": [
+            "Proprietary",
+            "Reasoning Focused",
+            "API Access",
+            "Reinforcement Learning",
+            "Specialized (STEM, Coding)"
+          ],
+          "Keywords (Best Tasks)": [
+            "Complex Reasoning",
+            "Scientific Problem Solving",
+            "Mathematical Tasks",
+            "Coding Assistance"
+          ],
+          "Access URL": "https://platform.openai.com/docs/models"
+        },
+        {
+          "Model Name": "Claude 3 Series (Anthropic)",
+          "Keywords (Specifications)": [
+            "Proprietary",
+            "Ethical AI Principles",
+            "Long Context Window",
+            "API Access",
+            "Transformer-based"
+          ],
+          "Keywords (Best Tasks)": [
+            "Safe AI Deployment",
+            "Detailed Text Analysis",
+            "Creative Writing",
+            "Conversational Applications",
+            "Enterprise Solutions",
+            "Long-form Content Processing"
+          ],
+          "Access URL": "https://www.anthropic.com/index/introducing-claude"
+        },
+        {
+          "Model Name": "Gemini Series (Google)",
+          "Keywords (Specifications)": [
+            "Proprietary",
+            "Multimodal (Text, Image, Audio, Video)",
+            "Various Sizes (Nano, Flash, Pro, Ultra)",
+            "API Access",
+            "Google Ecosystem Integration",
+            "Long Context Window",
+            "Reasoning (Flash Thinking, Pro, Ultra)",
+            "Transformer-based"
+          ],
+          "Keywords (Best Tasks)": [
+            "Multimodal Applications",
+            "Integrated Google Workspace Tasks",
+            "Long-Context Understanding",
+            "Complex Reasoning",
+            "Conversational AI"
+          ],
+          "Access URL": "https://deepmind.google/technologies/gemini/"
+        },
+        {
+          "Model Name": "Llama 3 / 3.1 / 3.2 (Meta AI)",
+          "Keywords (Specifications)": [
+            "Open Source",
+            "Various Sizes",
+            "Transformer-based",
+            "Multimodal (Llama 3.2 Vision)",
+            "Fine-tuning Capable"
+          ],
+          "Keywords (Best Tasks)": [
+            "Research and Development",
+            "Building Custom Applications",
+            "Text Generation",
+            "Code Generation",
+            "Multimodal Tasks (with Vision capabilities)"
+          ],
+          "Access URL": "https://ai.meta.com/llama/"
+        },
+        {
+          "Model Name": "DeepSeek R1 (DeepSeek)",
+          "Keywords (Specifications)": [
+            "Open Source",
+            "Reasoning Focused",
+            "Large Parameter Count (MoE)",
+            "Efficient",
+            "API Access"
+          ],
+          "Keywords (Best Tasks)": [
+            "Logical Reasoning",
+            "Scientific and Technical Applications",
+            "Coding",
+            "Mathematical Problem Solving"
+          ],
+          "Access URL": "https://github.com/deepseek-ai/DeepSeek-LLM"
+        },
+        {
+          "Model Name": "DeepSeek V3 / V2.5 / V2 (DeepSeek)",
+          "Keywords (Specifications)": [
+            "Open Source",
+            "Multimodal",
+            "Large Parameter Count (MoE)",
+            "API Access"
+          ],
+          "Keywords (Best Tasks)": [
+            "Multimodal Understanding",
+            "Research",
+            "Enterprise Applications"
+          ],
+          "Access URL": "https://github.com/deepseek-ai/DeepSeek-V2"
+        },
+        {
+          "Model Name": "Grok-1 / 2 / 3 (xAI)",
+          "Keywords (Specifications)": [
+            "Proprietary",
+            "Real-time Data (from X)",
+            "Conversational",
+            "Reasoning"
+          ],
+          "Keywords (Best Tasks)": [
+            "Engaging Conversation",
+            "Real-time Information Access",
+            "Social Media Analysis (potential)"
+          ],
+          "Access URL": "https://x.ai"
+        },
+        {
+          "Model Name": "Mistral 7B (Mistral AI)",
+          "Keywords (Specifications)": [
+            "Open Source",
+            "Efficient",
+            "Smaller Size",
+            "Transformer-based"
+          ],
+          "Keywords (Best Tasks)": [
+            "Efficient Deployment",
+            "Text Generation",
+            "Code Generation",
+            "Customization"
+          ],
+          "Access URL": "https://mistral.ai/news/announcing-mistral-7b/"
+        },
+        {
+          "Model Name": "Mistral Large 2 (Mistral AI)",
+          "Keywords (Specifications)": [
+            "Proprietary/Open Source (specific versions)",
+            "Large Parameter Count",
+            "Multilingual",
+            "API Access",
+            "Transformer-based"
+          ],
+          "Keywords (Best Tasks)": [
+            "High-Performance Text Generation",
+            "Multilingual Applications",
+            "Complex Tasks"
+          ],
+          "Access URL": "https://mistral.ai/news/mistral-large/"
+        },
+        {
+          "Model Name": "Qwen Series (Alibaba Cloud)",
+          "Keywords (Specifications)": [
+            "Open Source",
+            "Multimodal (Qwen2.5-VL)",
+            "Multilingual",
+            "Various Sizes",
+            "API Access"
+          ],
+          "Keywords (Best Tasks)": [
+            "Multilingual Applications",
+            "Coding",
+            "Mathematics",
+            "Multimodal Tasks"
+          ],
+          "Access URL": "https://github.com/QwenLM/Qwen"
+        },
+        {
+          "Model Name": "Phi-3 / Phi-4 (Microsoft)",
+          "Keywords (Specifications)": [
+            "Open Source",
+            "Smaller Size",
+            "Efficient",
+            "Transformer-based",
+            "Multilingual (Phi-4)"
+          ],
+          "Keywords (Best Tasks)": [
+            "Running on Limited Hardware",
+            "Educational Purposes",
+            "Research in Smaller Model Capabilities"
+          ],
+          "Access URL": "https://www.microsoft.com/en-us/research/project/phi-natural-language-processing/"
+        },
+        {
+          "Model Name": "Command R (Cohere)",
+          "Keywords (Specifications)": [
+            "Proprietary/Open Source (specific versions)",
+            "Retrieval Augmented Generation (RAG)",
+            "Enterprise Focused",
+            "API Access"
+          ],
+          "Keywords (Best Tasks)": [
+            "Enterprise Search",
+            "Question Answering (Grounded)",
+            "Summarization",
+            "Business Applications"
+          ],
+          "Access URL": "https://cohere.com/models"
+        },
+        {
+          "Model Name": "Inflection-2.5 (Inflection AI)",
+          "Keywords (Specifications)": [
+            "Proprietary",
+            "Powers Pi",
+            "Efficient"
+          ],
+          "Keywords (Best Tasks)": [
+            "Conversational AI (Personalized)",
+            "Dialogue Systems"
+          ],
+          "Access URL": "https://pi.ai"
+        },
+        {
+          "Model Name": "Gemma / Gemma 2 / Gemma 3 (Google DeepMind)",
+          "Keywords (Specifications)": [
+            "Open Source",
+            "Lightweight",
+            "Various Sizes",
+            "API Access"
+          ],
+          "Keywords (Best Tasks)": [
+            "Research",
+            "Development on Various Hardware",
+            "Text Generation",
+            "Code Generation"
+          ],
+          "Access URL": "https://ai.google.dev/gemma"
+        },
+        {
+          "Model Name": "Jamba (AI21 Labs)",
+          "Keywords (Specifications)": [
+            "Open Source",
+            "Hybrid Architecture (Transformer-GateLoop)"
+          ],
+          "Keywords (Best Tasks)": [
+            "Efficient Processing",
+            "Long Context Handling"
+          ],
+          "Access URL": "https://www.ai21.com/blog/introducing-jamba"
+        },
+        {
+          "Model Name": "DBRX (Databricks)",
+          "Keywords (Specifications)": [
+            "Open Source",
+            "MoE Architecture",
+            "Fine-tuning Capable"
+          ],
+          "Keywords (Best Tasks)": [
+            "Code Generation",
+            "SQL Generation",
+            "Summarization"
+          ],
+          "Access URL": "https://www.databricks.com/blog/introducing-dbrx"
+        },
+        {
+          "Model Name": "Nemotron-4 (Nvidia)",
+          "Keywords (Specifications)": [
+            "Open Source",
+            "Large Parameter Count"
+          ],
+          "Keywords (Best Tasks)": [
+            "Text Generation",
+            "Customization"
+          ],
+          "Access URL": "https://developer.nvidia.com/blog/nemotron-4-llm-a-foundation-model-for-training-custom-enterprise-generative-ai/"
+        },
+        {
+          "Model Name": "Stable LM 2 (Stability AI)",
+          "Keywords (Specifications)": [
+            "Open Source",
+            "Various Sizes"
+          ],
+          "Keywords (Best Tasks)": [
+            "Text Generation",
+            "Conversational AI"
+          ],
+          "Access URL": "https://stability.ai/news/stability-ai-launches-stablelm-zephyr-3b"
+        },
+        {
+          "Model Name": "OLMo (Allen Institute for AI)",
+          "Keywords (Specifications)": [
+            "Open Source",
+            "Research Focused",
+            "Transparency"
+          ],
+          "Keywords (Best Tasks)": [
+            "NLP Research",
+            "Reproducible Experiments"
+          ],
+          "Access URL": "https://allenai.org/olmo"
+        },
+        {
+          "Model Name": "PaLM 2 (Google)",
+          "Keywords (Specifications)": [
+            "Proprietary",
+            "Large-scale",
+            "Multilingual",
+            "Reasoning",
+            "Coding"
+          ],
+          "Keywords (Best Tasks)": [
+            "Multilingual Tasks",
+            "Reasoning",
+            "Coding",
+            "Translation"
+          ],
+          "Access URL": "https://ai.google/discover/palm2/"
+        },
+        {
+          "Model Name": "Alpaca 7B (Stanford CRFM)",
+          "Keywords (Specifications)": [
+            "Open Source",
+            "Fine-tuned Llama",
+            "Smaller Size"
+          ],
+          "Keywords (Best Tasks)": [
+            "Instruction Following",
+            "Conversational AI"
+          ],
+          "Access URL": "https://crfm.stanford.edu/2023/03/13/alpaca.html"
+        },
+        {
+          "Model Name": "Pythia (EleutherAI)",
+          "Keywords (Specifications)": [
+            "Open Source",
+            "Various Sizes",
+            "Research Focused"
+          ],
+          "Keywords (Best Tasks)": [
+            "Research on LLM Training and Behavior"
+          ],
+          "Access URL": "https://www.eleuther.ai/projects/pythia/"
+        },
+        {
+          "Model Name": "Vicuna-13B",
+          "Keywords (Specifications)": [
+            "Open Source",
+            "Fine-tuned Llama",
+            "Conversational"
+          ],
+          "Keywords (Best Tasks)": [
+            "Chatbots",
+            "Conversational AI"
+          ],
+          "Access URL": "https://lmsys.org/blog/2023-03-30-vicuna/"
+        },
+        {
+          "Model Name": "BLOOM",
+          "Keywords (Specifications)": [
+            "Open Source",
+            "Large Parameter Count",
+            "Multilingual",
+            "Research Focused"
+          ],
+          "Keywords (Best Tasks)": [
+            "Multilingual Text Generation",
+            "NLP Research"
+          ],
+          "Access URL": "https://huggingface.co/bigscience/bloom"
+        },
+        {
+          "Model Name": "GPT-NeoX-20B (EleutherAI)",
+          "Keywords (Specifications)": [
+            "Open Source",
+            "Large Parameter Count",
+            "Autoregressive"
+          ],
+          "Keywords (Best Tasks)": [
+            "Language Understanding",
+            "Text Generation"
+          ],
+          "Access URL": "https://github.com/EleutherAI/gpt-neox"
+        }
+      ],
+      "Vision Models": [
+        {
+          "Model Name": "Multimodal Vision-Language Models (General Category)",
+          "Keywords (Specifications)": [
+            "Multimodal (Image + Text input/output)",
+            "Transformer-based",
+            "Cross-Modal Understanding"
+          ],
+          "Keywords (Best Tasks)": [
+            "Visual Question Answering (VQA)",
+            "Image Captioning",
+            "Document Understanding (Visual OCR)",
+            "Chart Understanding",
+            "Object Grounding"
+          ]
+        },
+        {
+          "Model Name": "CLIP (OpenAI)",
+          "Keywords (Specifications)": [
+            "Multimodal (Image and Text Embeddings)",
+            "Zero-shot Learning",
+            "Transformer-based"
+          ],
+          "Keywords (Best Tasks)": [
+            "Zero-shot Image Classification",
+            "Image Search (Text-based)",
+            "Connecting Text and Images"
+          ]
+        },
+        {
+          "Model Name": "Florence-2 (Microsoft)",
+          "Keywords (Specifications)": [
+            "Multimodal",
+            "Encoder-Decoder Architecture"
+          ],
+          "Keywords (Best Tasks)": [
+            "Object Detection",
+            "Image Captioning",
+            "Image Segmentation",
+            "OCR"
+          ]
+        },
+        {
+          "Model Name": "PaliGemma (Google)",
+          "Keywords (Specifications)": [
+            "Open Source",
+            "Multimodal",
+            "Based on SigLIP and Gemma"
+          ],
+          "Keywords (Best Tasks)": [
+            "Visual Question Answering (VQA)",
+            "Image Captioning"
+          ]
+        },
+        {
+          "Model Name": "LLaVA",
+          "Keywords (Specifications)": [
+            "Open Source",
+            "Multimodal",
+            "Based on LLMs and Vision Transformers"
+          ],
+          "Keywords (Best Tasks)": [
+            "Visual Instruction Following",
+            "Multimodal Chat"
+          ]
+        },
+        {
+          "Model Name": "MiniCPM-V",
+          "Keywords (Specifications)": [
+            "Open Source",
+            "Multimodal",
+            "Efficient"
+          ],
+          "Keywords (Best Tasks)": [
+            "Multimodal Chat",
+            "Visual Question Answering (VQA)"
+          ]
+        },
+        {
+          "Model Name": "ImageBind (Meta AI)",
+          "Keywords (Specifications)": [
+            "Multimodal Embeddings (Image, Text, Audio, Depth, Thermal, IMU)",
+            "Joint Embedding Space"
+          ],
+          "Keywords (Best Tasks)": [
+            "Cross-Modal Retrieval",
+            "Multimodal Understanding"
+          ]
+        },
+        {
+          "Model Name": "Image Classification Models (General Category)",
+          "Keywords (Specifications)": [
+            "Image Input",
+            "Class Label Output",
+            "Deep Learning (CNNs, Vision Transformers)",
+            "Feature Extraction"
+          ],
+          "Keywords (Best Tasks)": [
+            "Object Recognition",
+            "Image Categorization",
+            "Large-scale Image Sorting",
+            "Medical Image Analysis",
+            "Quality Control"
+          ]
+        },
+        {
+          "Model Name": "ResNet",
+          "Keywords (Specifications)": [
+            "CNN Architecture",
+            "Residual Connections",
+            "Image Classification Backbone"
+          ],
+          "Keywords (Best Tasks)": [
+            "Image Classification",
+            "Feature Extraction for Other Vision Tasks"
+          ]
+        },
+        {
+          "Model Name": "VGGNet",
+          "Keywords (Specifications)": [
+            "CNN Architecture",
+            "Stacked Small Filters"
+          ],
+          "Keywords (Best Tasks)": [
+            "Image Classification",
+            "Feature Extraction"
+          ]
+        },
+        {
+          "Model Name": "Vision Transformer (ViT)",
+          "Keywords (Specifications)": [
+            "Transformer Architecture",
+            "Image Patches",
+            "Self-Attention"
+          ],
+          "Keywords (Best Tasks)": [
+            "Image Classification",
+            "Various Vision Tasks (adapted)"
+          ]
+        },
+        {
+          "Model Name": "Object Detection and Localization Models (General Category)",
+          "Keywords (Specifications)": [
+            "Image/Video Input",
+            "Bounding Box Output",
+            "Object Class Output",
+            "Real-time Processing (for some)"
+          ],
+          "Keywords (Best Tasks)": [
+            "Identifying and Locating Objects",
+            "Surveillance",
+            "Autonomous Driving",
+            "Retail Inventory Management",
+            "Anomaly Detection"
+          ]
+        },
+        {
+          "Model Name": "Faster R-CNN",
+          "Keywords (Specifications)": [
+            "Region Proposal Network (RPN)",
+            "Two-Stage Detection"
+          ],
+          "Keywords (Best Tasks)": [
+            "Accurate Object Detection"
+          ]
+        },
+        {
+          "Model Name": "YOLO Series (e.g., YOLO v7, YOLOv12)",
+          "Keywords (Specifications)": [
+            "Single-Stage Detection",
+            "Real-time Processing",
+            "Various Versions"
+          ],
+          "Keywords (Best Tasks)": [
+            "Real-time Object Detection",
+            "Video Analysis",
+            "Autonomous Systems"
+          ]
+        },
+        {
+          "Model Name": "SSD",
+          "Keywords (Specifications)": [
+            "Single-Stage Detection",
+            "Multi-scale Feature Maps"
+          ],
+          "Keywords (Best Tasks)": [
+            "Real-time Object Detection"
+          ]
+        },
+        {
+          "Model Name": "RF-DETR",
+          "Keywords (Specifications)": [
+            "Transformer-based Object Detection",
+            "End-to-End"
+          ],
+          "Keywords (Best Tasks)": [
+            "Object Detection"
+          ]
+        },
+        {
+          "Model Name": "Semantic Segmentation Models (General Category)",
+          "Keywords (Specifications)": [
+            "Image Input",
+            "Pixel-level Mask Output",
+            "Scene Understanding"
+          ],
+          "Keywords (Best Tasks)": [
+            "Medical Image Analysis",
+            "Scene Composition Analysis",
+            "Autonomous Navigation (understanding drivable surfaces, obstacles)",
+            "Satellite Imagery Analysis"
+          ]
+        },
+        {
+          "Model Name": "FastFCN",
+          "Keywords (Specifications)": [
+            "CNN Architecture",
+            "Joint Pyramid Pooling"
+          ],
+          "Keywords (Best Tasks)": [
+            "Semantic Segmentation"
+          ]
+        },
+        {
+          "Model Name": "DeepLab Series",
+          "Keywords (Specifications)": [
+            "CNN Architecture",
+            "Atrous Convolution",
+            "Spatial Pyramid Pooling"
+          ],
+          "Keywords (Best Tasks)": [
+            "Semantic Segmentation"
+          ]
+        },
+        {
+          "Model Name": "U-Net",
+          "Keywords (Specifications)": [
+            "CNN Architecture",
+            "Encoder-Decoder with Skip Connections"
+          ],
+          "Keywords (Best Tasks)": [
+            "Medical Image Segmentation",
+            "Image Segmentation (general)"
+          ]
+        },
+        {
+          "Model Name": "Instance Segmentation Models (General Category)",
+          "Keywords (Specifications)": [
+            "Image Input",
+            "Pixel-level Mask per Object Instance",
+            "Object Detection and Segmentation Combined"
+          ],
+          "Keywords (Best Tasks)": [
+            "Precise Object Masking",
+            "Image Editing",
+            "Robotics (object manipulation)",
+            "Detailed Scene Analysis"
+          ]
+        },
+        {
+          "Model Name": "Mask R-CNN",
+          "Keywords (Specifications)": [
+            "Builds on Faster R-CNN",
+            "Adds Mask Head"
+          ],
+          "Keywords (Best Tasks)": [
+            "Instance Segmentation",
+            "Object Detection"
+          ]
+        },
+        {
+          "Model Name": "SAM (Segment Anything Model) (Meta AI)",
+          "Keywords (Specifications)": [
+            "Zero-shot Segmentation",
+            "Promptable Segmentation",
+            "Vision Transformer (ViT) Backbone"
+          ],
+          "Keywords (Best Tasks)": [
+            "Interactive Segmentation",
+            "Zero-shot Segmentation of Any Object"
+          ]
+        },
+        {
+          "Model Name": "Pose Estimation Models (General Category)",
+          "Keywords (Specifications)": [
+            "Image/Video Input",
+            "Keypoint Detection",
+            "Body/Object Pose Output"
+          ],
+          "Keywords (Best Tasks)": [
+            "Human Activity Recognition",
+            "Robotics",
+            "Animation",
+            "Sports Analysis",
+            "Augmented Reality"
+          ]
+        },
+        {
+          "Model Name": "OpenPose",
+          "Keywords (Specifications)": [
+            "Multi-person Pose Estimation",
+            "Part Affinity Fields"
+          ],
+          "Keywords (Best Tasks)": [
+            "Real-time Multi-person Pose Estimation"
+          ]
+        },
+        {
+          "Model Name": "MoveNet (Google)",
+          "Keywords (Specifications)": [
+            "Lightweight",
+            "Real-time"
+          ],
+          "Keywords (Best Tasks)": [
+            "Real-time Human Pose Estimation (especially on edge devices)"
+          ]
+        },
+        {
+          "Model Name": "PoseNet (Google)",
+          "Keywords (Specifications)": [
+            "Browser-based",
+            "Real-time"
+          ],
+          "Keywords (Best Tasks)": [
+            "Real-time Human Pose Estimation (in the browser)"
+          ]
+        },
+        {
+          "Model Name": "YOLOv8 Pose Estimation",
+          "Keywords (Specifications)": [
+            "Single-Stage",
+            "Real-time",
+            "Keypoint Detection"
+          ],
+          "Keywords (Best Tasks)": [
+            "Real-time Object Pose Estimation",
+            "Keypoint Detection"
+          ]
+        },
+        {
+          "Model Name": "Image Generation and Synthesis Models (General Category)",
+          "Keywords (Specifications)": [
+            "Text/Image Input",
+            "Image Output",
+            "Generative AI (GANs, Diffusion Models)"
+          ],
+          "Keywords (Best Tasks)": [
+            "Creating Original Images from Text",
+            "Image Editing and Manipulation",
+            "Data Augmentation (Synthetic Data)",
+            "Creative Arts"
+          ]
+        },
+        {
+          "Model Name": "DALL-E (OpenAI)",
+          "Keywords (Specifications)": [
+            "Proprietary",
+            "Text-to-Image Generation",
+            "Transformer-based"
+          ],
+          "Keywords (Best Tasks)": [
+            "Generating Images from Text Descriptions",
+            "Image Editing"
+          ]
+        },
+        {
+          "Model Name": "MidJourney",
+          "Keywords (Specifications)": [
+            "Proprietary",
+            "Text-to-Image Generation",
+            "High-Quality Artistic Images"
+          ],
+          "Keywords (Best Tasks)": [
+            "Generating Artistic Images from Text"
+          ]
+        },
+        {
+          "Model Name": "Stable Diffusion (Stability AI)",
+          "Keywords (Specifications)": [
+            "Open Source",
+            "Text-to-Image Generation",
+            "Diffusion Model"
+          ],
+          "Keywords (Best Tasks)": [
+            "Generating Images from Text",
+            "Image Editing",
+            "Fine-tuning for Specific Styles"
+          ]
+        }
+      ]
+    }
+  }

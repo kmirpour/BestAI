@@ -1,0 +1,172 @@
+/* Styles adapted from newInterface.html */
+body {
+    background-color: #0f171c;
+    font-family: 'Segoe UI', sans-serif;
+    color: white;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 1rem;
+    min-height: 100vh;
+    box-sizing: border-box;
+  }
+  h1 {
+    font-size: 2.5rem;
+    color: #4F8BFF;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  /* Input Area Styles */
+  #input-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 1rem; /* Reduced margin */
+  }
+  
+  #user-input { /* Using the ID from previous script */
+    width: 100%;
+    padding: 1rem;
+    border-radius: 50px;
+    border: none;
+    font-size: 1rem;
+    background-color: #181e23;
+    color: white;
+    outline: none;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+  }
+  
+  #send-button { /* Using the ID from previous script */
+    padding: 0.75rem 2rem;
+    border: none;
+    border-radius: 50px;
+    background-color: #4F8BFF;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    /* Removed margin-top as input has margin-bottom */
+  }
+
+  #clear-button { /* Using the ID from previous script */
+    padding: 0.75rem 2rem;
+    border: none;
+    border-radius: 50px;
+    background-color: #4F8BFF;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    /* Removed margin-top as input has margin-bottom */
+  }
+
+
+  #send-button:hover {
+    background-color: #3973e6;
+  }
+  /* Hide SVG from previous button style if it existed */
+  #send-button svg { display: none; }
+  
+  /* Prompt Gallery Styles */
+  .prompt-gallery {
+    margin-top: 1rem; /* Adjusted margin */
+    margin-bottom: 2rem; /* Add space below gallery */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+    max-width: 600px;
+  }
+  .chip {
+    background-color: #0f171c;
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    cursor: pointer;
+    border: 1px solid #333;
+    transition: background-color 0.2s;
+  }
+  .chip:hover {
+    background-color: #2a2a2a;
+  }
+  
+  /* Results Area (#chat-messages styled like .result) */
+  #chat-messages {
+    width: 100%;
+    max-width: 600px;
+    background-color: #0f171c;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+    flex-grow: 1; /* Allow it to take remaining space */
+    overflow-y: auto; /* Keep scroll */
+    padding: 1rem; /* Consistent padding */
+    display: flex;
+    flex-direction: column;
+    gap: 1rem; /* Space between messages */
+    min-height: 100px; /* Ensure it has some height even when empty */
+  }
+  
+  /* Individual Message Styles within Results Area */
+  .message {
+      padding: 12px 18px;
+      border-radius: 12px; /* Match result area rounding */
+      max-width: 95%;
+      word-wrap: break-word;
+      line-height: 1.5;
+      font-size: 0.95rem;
+      border: 1px solid #0f171c; /* Add subtle border to all messages */
+  }
+  
+  .user-message {
+      background-color: #273b4a; /* Darker user message */
+      color: #e0e0e0;
+      align-self:center;
+      border-bottom-right-radius: 5px;
+  }
+  
+  .bot-message {
+      background-color: #0f171c; /* Slightly different bot message bg */
+      color: #f0f0f0;
+      align-self: flex-start;
+      border-bottom-left-radius: 5px;
+  }
+  
+  /* Styling for Model Name and Links within bot messages */
+  .bot-message strong.model-name { /* Specific class for model name */
+      font-size: 1.1rem;
+      color: #4F8BFF;
+      display: block; /* Make it a block element */
+      margin-bottom: 0.5rem;
+  }
+  .bot-message a {
+      color: #8ab4f8; /* Lighter blue for links */
+      text-decoration: none;
+  }
+  .bot-message a:hover {
+      text-decoration: underline;
+  }
+  .bot-message ul {
+      list-style: disc;
+      padding-left: 25px;
+      margin: 8px 0 5px 0; /* Adjusted margins */
+  }
+  .bot-message li {
+      margin-bottom: 5px;
+  }
+  .bot-message hr {
+      border: none;
+      border-top: 1px solid #333;
+      margin: 1rem 0;
+  }
+  .bot-message p small {
+      color: #aaa; /* Lighter secondary text */
+      font-size: 0.8em;
+      display: block;
+      margin-top: 8px;
+  }
+  
